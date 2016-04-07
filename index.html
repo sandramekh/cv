@@ -3,57 +3,89 @@
 <head>
       <meta charset="UTF-8">
       <title>Portfolio</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
       <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
-    
-    <header class="header">
-        <div class="container">
-            <h1> Lesia Maksymiv</h1>
-            <h2>
-                <small>Welcome to my portfolio</small>
-            </h2>
-        </div>
-    </header>    
-        <nav class="page-navigation">
-            <div class="container">
-               <ul>
-                  <li><a id="linkHome" class="active" href="#home">Home</a></li>
-                  <li><a id="linkaboutme" href="#aboutme">About me</a></li>
-                  <li><a id="linkSkills" href="#skills">Skills</a></li>
-                  <li><a id="linkcertifications" href="#certifications">Certifications</a></li>
-                  <li><a id="linkhobby" href="#hobby">Hobby</a></li>
-                  <li><a id="linkcontacts" href="#contacts">Contact</a></li>
-               </ul>
-             </nav>
-            </div>
+    <!--Navigation-->
+       <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>                    
+                <nav class="collapse navbar-collapse" id="responsive-menu">
+                <ul class="nav navbar-nav pull-right">
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="#about me">About me</a></li>
+                     <li><a href="#certifications">Certifications</a></li>
+                     <li><a href="#hobby">Hobby</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                </ul>
+                </nav>
+             </div>
+        </nav>
+        
+            <img class="me" src="me.jpg" alt="cover photo"></img>
+          
+           
 
         
-          
- 
+        
+        <!--About-->
+        
+        
+    <section id="home">
+        <div class="text-vertical-center">
+            <h1> Lesia Maksymiv</h1>
+            <h2> Welcome to my portfolio </h2>
+                <a href="#about" class="btn btn-dark btn-lg">Contact me</a>
+            </h2>
+        </div>
+    </section>   
        
+     <section id="hobby">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">  
+              <img class="girl" src="img/hobby1.jpg"></img>
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <img class="girl" src="img/hobby2.jpg"></img>
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               <img class="girl" src="img/hobby3.jpg"></img>
+           </div>       
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               <img class="girl" src="img/hobby4.jpg"></img>
+           </div>
+         </div>
+    </section>     
+        <script src="//code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="  crossorigin="anonymous"></script>        
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> 
                  
             
-            
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="js/index.js"></script>
       
-      </head>
       <footer class="footer">
           <div class="container">
             
-        <form id="contact" method="post" action="action_page.php">
-            <fieldset>
-                <legend>Write me a MESSAGE</legend>
-                Your name<br>
-                <input type="text" name="Your name"><br>
-                Email<br>
-                <input type="email" name="email"><br>
-                <input type="submit" value="Sign In">    
-        </form>
-                    
+        
                     <!-- Login for-->
-            </fieldset>
-        </form>
+          
+       
            </div>
         </footer>
   </html>
