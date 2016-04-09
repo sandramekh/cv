@@ -11,16 +11,30 @@ body {
     text-align: center;
 }
 #skills {
+    float: left;
     display: inline-block;
     width: 100%;
 }
 .sign {
     /*width: 19%;*/
     border: 1px solid #e3e0cf;
-    margin: 10px 5px 5px 5px;
+    margin: 15px 10px 10px 10px;
     background: #c5d5cb;
     color: #9fa8a3;
-    float: right;
+    float: left;
+}
+#hobby {
+    display: inline-block;
+    width:100%;
+    float: left ;
+}
+.gallery {
+    display: inline-block;
+    width: 25%;
+    border: 1px solid #e3e0cf;
+    margin: 15px 10px 10px 10px;
+    background: #c5d5cb;
+    color: #9fa8a3;
 }
 /*NAVIGATION*/
 
