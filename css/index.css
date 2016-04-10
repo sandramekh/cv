@@ -17,15 +17,16 @@ body {
     width: 100%;
 }
 .sign {
-    /*width: 19%;*/
-    border: 1px solid #e3e0cf;
-    margin: 20px 15px 15px 15px;
+    /*width: 33.33;*/
+    border: 2px solid #e3e0cf;
+    margin: 30px 25px 25px 25px;
     background: #c5d5cb;
     color: #9fa8a3;
     float: left;
 }
 #hobby {
     display: inline-block;
+
     width:100%;
     float: left;
 }
@@ -36,6 +37,41 @@ body {
     margin: 10px 5px 5px 5px;
     background: #c5d5cb;
     color: #9fa8a3;
+}
+h2 {
+    font-size: 40px;
+    color: #3b3a36;
+    opacity:0.5;
+    text-shadow: 2px 2px 2px #aaa;
+    text-align: center;
+    float: left;
+    padding-left: 5%;
+    margin: 22px 0 22px 0;
+    opacity: 1;
+    background-color: #c5d5cb;
+    width:100%;
+    height: 80px;
+}
+.topright{
+    position: absolute;
+    top:0px;
+    opacity: 0.5;
+    width:100%;
+    font-size:30px;
+}
+.navbar {
+    width: 100%;
+}
+#contact {
+  border-color: #3b3a36;
+  color: #3b3a36;
+
+  width: 100%;
+}
+input, textarea {
+    border-radius:2px;
+}
+    
 }
 /*NAVIGATION*/
 
@@ -59,33 +95,10 @@ a:hover {
 }
 /*SECTION SKILLS*/
 
-#page1{
-    background: #c7c7c7;
-    width: auto;
-    height: 300px;
-    position: relative;
-}
-.skills {
-    position: absolute;
-    width:1050px;
-    height: 500px;
-    margin: 130px 180px;
-}
-.skills h2 {
-    width: 100px;
-    text-align: center;
-    font-weight: bold;
-    font-size:100%;
-}
-.skills li {
-    display: inline-block;
-    margin-left:55px;
-    opacity:.5;
-}
-.skills li:hover {
-    opacity: 1;
-    transition: .5s;
-}
+
+
+
+
     /*CONTACT
 #page3{ 
     background:#c7c7c7;
@@ -141,22 +154,11 @@ a:hover {
 .collection-item {
     border: 1px solid #c7c7c7;
 }
-.collection-item img {
-    width: 33.33%;
-}
 
 /*FORM*/
 
 
-/*.write_message {
-    position: absolute;
-    width: 100px;
-    height: auto;
-    margin:10px 450px;
-    padding-left: 5px;
-    font-family: "Lora" , serif;
-    font-size: 18px;
-}
+
 .message {
     border: 2px solid #bab9b9;
     border-radius: 2px;
@@ -166,23 +168,8 @@ a:hover {
 
 }    
 
-.container {
-    margin: 0 auto;
-  
-}
-    
-header{
-    height:700px;
-}
-.me {
-    width: 100%;
-}
-section {
-    height: 700px;
-}
-.girl {
-    width:100%;
-}
+
+
 
 
 
