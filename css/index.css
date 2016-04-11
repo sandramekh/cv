@@ -3,12 +3,11 @@
 }
 
 body {
-
     color:#c5d5cb;
-    background-color: #3b3a36;
+    background-color: white;
     font-family: "Lora" , serif;
     font-size: 24px;
-    text-shadow: 4px 4px 4px #aaa;
+    
     text-align: center;
 }
 #skills {
@@ -39,7 +38,7 @@ body {
     color: #9fa8a3;
 }
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #3b3a36;
     opacity:0.5;
     text-shadow: 2px 2px 2px #aaa;
@@ -63,8 +62,10 @@ h2 {
     width: 100%;
 }
 #contact {
-  border-color: #3b3a36;
+  border-color: #fff;
   color: #3b3a36;
+  margin:5px 0px 20px 20px;
+  border-radius: 8px;
 
   width: 100%;
 }
@@ -72,88 +73,7 @@ input, textarea {
     border-radius:2px;
 }
     
-}
-/*NAVIGATION*/
 
-
-/*
-a:hover {
-    text-decoration: underline;
-    color
-    */
-/*Header*/ 
-
-
-/*SECTION HOME*/
-#about me {
-     position: relative;
-     background-color: #fff;
-     background-repeat: no-repeat;
-     background-position: center;
-     width: auto;
-     height: 100px;
-}
-/*SECTION SKILLS*/
-
-
-
-
-
-    /*CONTACT
-#page3{ 
-    background:#c7c7c7;
-    width: auto;
-    height:550px;
-    position: relative;
-  }
-.contact {
-    width:300px;
-    height: auto;
-    position: absolute;
-    margin: 130px 50px;
-}
-.contact .icon {
-    width: 24px;
-}
-.contact li {
-    padding: 10px;
-}
-.contact h2 {
-    color: black;
-    margin-left:80px;
-}*/
-/*main*/
-.collections {
-    overflow: auto;
-}
-.collection-title {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #777;
-    font-size:36px;
-}
-.collection-title small {
-    color: #777;
-    font-size: 50%;
-}
-.colection-item-outer {
-    display: inline-block;
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 33.33%;
-    box-sizing: border-box;
-}
-.collections > div:first-child {
-    padding-left: 0;
-    padding-right: 5px;
-} 
-.collections > div:last-child {
-    padding-right: 0;
-    padding-left: 5px;
-}
-.collection-item {
-    border: 1px solid #c7c7c7;
-}
 
 /*FORM*/
 
