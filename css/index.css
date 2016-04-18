@@ -1,97 +1,239 @@
-
-body {
-    color:#c5d5cb;
-    background-color: white;
-    font-family: "Lora" , serif;
-    font-size: 24px;
+ 
+ body {
+    margin:0 auto;
+    height: 100%;
+    background: #f3f4f4;
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    color:#3b3a36;
+    font-size: 14px;
     text-align: center;
+}
+.main{
+    max-width: 1800px;
+    position: relative;
+    background: url(../images/slide.jpg);
+    margin-top:50px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align:center;
+}
+.main img {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.scroll {
+    bottom: 50px;
+    z-index:999;
+    color: black;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.scroll-icon {
+    top: 20px;
+    color: black;
+    font-size: 40px;
+}
+#about {
+    height: 100%;
+    font-family: Arial, cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+p: text-about {
+    padding: center;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+#owner {
+    float: left;
+    border: 2px solid #e3e0cf;
+    margin: 5px 0px 20px 20px;
+    padding: 5px;
+    width:20%;
+    height: auto;
+}
+p {
+    font-family: 'Open Sans' san-serif;
+    font-weight: normal;
+    color:#696969;
+    font-size: 18px;
+    margin-right: 5px;
+    margin-top: 60px;
+    text-align: center;
+   
 }
 
 #skills {
     float: left;
     display: inline-block;
     width: 100%;
+    text-align: center;
+    overflow: auto;
 }
+
+   
+/*Figure*/
+
 .sign {
     width: 33.33;
     border: 2px solid #e3e0cf;
-    margin: 30px 25px 25px 25px;
+    padding:15px;
+    margin: 80px 35px 35px 50px;
     background: #c5d5cb;
     color: #9fa8a3;
     float: left;
 }
-#hobby {
-    display: inline-block;
+sign img {
+    width: 100%;
+}
 
-    width:100%;
-    float: left;
+#hobby{
+    border-color: #fff;
+    color: #3b3a36;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 120px;
+
 }
 .gallery {
     display: inline-block;
     width: 25%;
-    border: 1px solid #e3e0cf;
-    margin: 10px 5px 5px 5px;
+    border: 4px solid #e3e0cf;
+    margin: 5px 1px 1px 1px;
     background: #c5d5cb;
     color: #9fa8a3;
+    
 }
 h2 {
-    font-size: 30px;
-    color: #3b3a36;
-    opacity:0.5;
-    text-shadow: 2px 2px 2px #aaa;
-    text-align: center;
-    float: left;
-    padding-left: 5%;
-    margin: 22px 0 22px 0;
-    opacity: 1;
-    background-color: #c5d5cb;
-    width:100%;
-    height: 80px;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-}
-/*
-.topright{
-    position: absolute;
-    top:0px;
-    opacity: 0.5;
-    width:100%;
-    font-size:30px;
-}
-.navbar {
+    color: #B1967C;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    opasity: 0.5;
+    background-color: white;
     width: 100%;
 }
-#contact {
-  border-color: #fff;
-  color: #3b3a36;
-  margin:5px 0px 20px 20px;
-  border-radius: 8px;
 
-  width: 100%;
-}
-input, textarea {
-    border-radius:2px;
+.navbar {
+    width: 100%;
+    height: 25px;
+    margin-right:10px; 
 }
     
-
-
-/*FORM*/
-
-
-.message {
-    border: 2px solid #bab9b9;
-    border-radius: 2px;
+.navbar-nav {
+    min-height: 20px;
+    max-height: 50px;
+    position: fixed;
 }
-#button {
-    border-radius: 2px;
-
-}    
-
-
-
-
-
-
+.navbar-default{
+    position: top-center;
+    font-size: 14px;
+    margin-right: 25px
+}
+navbar li {
+    padding:10px;
+    float: right;
+    display: block;
+    list-style-type: none;
+}
+.item {
+    width: 300px;
+    margin:0 auto;
+}
+/*Contacts*/
+#contacts {
+    border-color: #fff;
+    color: #3b3a36;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 120px;
+}
+.contacts h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.contact-form {
+    width: 100%;
+}
+.form-address {
+    width: 40%;
+    margin: 0 auto;
+}
+ .form-address input[type="text"],
+ .form-address input[type="email"],
+ .form-address textarea {
+    width: 100%;
+}
+ .btn {
+    width: 100%;
+    height: 30px;
+}
+ .form-address {
+    font-family: FontAwesome;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.form-address {
+    font-family: FontAwesome;
+    padding-right: 10px;
+    font-size: 20px;
+}
+address {
+    text-align: center;
+    margin-top: 50px;
+}
+address {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.scrollup {
+    float: right;
+    position: center;
+    bottom: 50px;
+    z-index:999;
+    background-color: none;
+    color: black;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.scrollup-icon {
+    position: center;
+    top: 20px;
+    color: black;
+    font-size: 40px;
+    
+}
+/*Footer*/
+.main-footer .social h3 {
+    text-align: left;
+    font-size: 18px;
+    padding: 15px;
+    float: left;
+    margin: 0;
+    letter-spacing: 0.7em;
+    text-shadow: 1px 1px 10px #9FA8A3;
+    color:#696969;
+    padding-left: 1em;
+}
+.main-footer .social {
+    background-color: white;
+    height: 50px;
+}
+.icon-contact {
+    float: right;
+    margin: 0;
+    font-size: 30px;
+    padding-right: 1em;
+    color: #696969;
+}
