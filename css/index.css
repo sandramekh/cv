@@ -1,4 +1,7 @@
- 
+ * {
+     margin: 0;
+     padding: 0;
+ }
  body {
     margin:0 auto;
     height: 100%;
@@ -67,7 +70,15 @@ p {
     margin-right: 5px;
     margin-top: 60px;
     text-align: center;
-   
+}
+hr {
+    width: 17%;
+    margin-top: 20px;
+    margin: 0 auto 10px;
+    opacity: 0.3;
+    height: 1px;
+    background: black;
+    border: 0;
 }
 
 #skills {
