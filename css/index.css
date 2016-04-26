@@ -3,6 +3,7 @@
      padding: 0;
  }
  body {
+    max-width: 1000px; 
     margin:0 auto;
     height: 100%;
     background: #f3f4f4;
@@ -13,7 +14,7 @@
     text-align: center;
 }
 .main{
-    max-width: 1800px;
+    max-width: 1000px;
     position: relative;
     background: url(../images/slide.jpg);
     margin-top:50px;
