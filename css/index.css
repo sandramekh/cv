@@ -147,7 +147,7 @@ h2 {
 }
 navbar li {
     padding:10px;
-    float: right;
+    float: center;
     display: block;
     list-style-type: none;
 }
